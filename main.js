@@ -121,6 +121,7 @@ function ListToString(List) {
   return Ret;
 }
 
+//参照のコピーではなく、値のコピーを行う
 function deepCopy(src) {
   let ret = [];
   for (var i of src) {
